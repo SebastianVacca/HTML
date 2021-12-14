@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color:#f5fafa;
+    color: black;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width:90%;
+    margin: auto;
+}
+
+/* NAVIGATION */
+
+.nav-brand {
+    width: 200px;
+
+}
+
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px 0;
+    
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 25px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #000;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/*imagen principal*/
+
+hr{
+    margin: 10px 0;
+}
+.showcase {
+    color: white;
+    width: 100%;
+    height: 500px;
+    background: url(./img/home-termometro-AOsosrio.png)  no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white ;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.showcase h2,
+.showcase p {
+    margin: bottom 10px; 
+}
+
+
+/*noticias*/
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.noticias img{
+    width: 90%;
+    height: 200px;
+}
+
+.noticias h3 {
+    font-size: 30px;
+    margin: 10px 0;
+
+}
+
+.noticias a{
+    padding: 10px 0;
+    color: #070707;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.noticias p{
+    font-size: 20px;
+}
+
+.noticias a:hover{
+    text-decoration: underline;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+    height: 380px;
+    background: url(img/unnamed.jpg) no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.noticias.container {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+/*redes*/
+
+.redes {
+    margin: 50px;
+}
+
+.redes p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 3rem;
+}
+
+/*FOOTER LINKS*/
+.footer-links {
+    background: yellow;
+    color: black;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul {
+    margin: 0 auto;
+}
+
+.footer-container ul li {
+    line-height: 2.5;
+}
+
+.footer {
+    background: gray;
+    color: white;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
